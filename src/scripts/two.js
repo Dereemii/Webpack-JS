@@ -1,7 +1,17 @@
-let mascota = {nombre: "Rosalina", edad:5, raza: "Yorkshire", pelo: "negro"}
+export const convierte_objeto_a_json = () => {
+  let objeto = {
+    nombre: "Rosalina",
+    edad: 5,
+    raza: "Yorkshire",
+    pelo: "negro",
+  };
+  let myJson=JSON.stringify(objeto)
+    return myJson
+};
 
-const convierte_objeto_a_json = (objeto) =>{
-    return JSON.stringify(objeto);
-}
-console.log(mascota); //retorna objeto
-console.log(convierte_objeto_a_json(mascota)); //retorna objeto convertido
+export default convierte_objeto_a_json;
+
+
+
+/* console.log(mascota); //retorna objeto
+console.log(convierte_objeto_a_json(mascota)); //retorna objeto convertido */

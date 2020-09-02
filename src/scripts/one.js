@@ -1,9 +1,7 @@
-import "./two";
-import "./three"; 
 
-let numeros = [1, 4, 23, -4, 'one', 6, 0, 1.1, 3.1415, ];
 
-const  es_Mayor_a_Ocho = (array_numeros) => {
+ export const es_Mayor_a_Ocho = (array_numeros) => {
+    var array_numeros = [1, 4, 23, -4, 'one', 6, 0, 1.1, 3.1415, ];
     let nuevoArray = []; 
 
     for(var i = 0; i < array_numeros.length; i++){
@@ -16,6 +14,8 @@ const  es_Mayor_a_Ocho = (array_numeros) => {
     } 
     return nuevoArray
 };
+ export default es_Mayor_a_Ocho;
 
 
-console.log(es_Mayor_a_Ocho(numeros))
+
+
