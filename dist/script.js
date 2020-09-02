@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// Ejercicio 1\nconsole.log(\"hola1\");\n\n//# sourceURL=webpack:///./src/scripts/one.js?");
+eval("var numeros = [1, 4, 23, -4, 'one', 6, 0, 1.1, 3.1415, 70];\n\nvar es_Mayor_a_Ocho = function es_Mayor_a_Ocho(array_numeros) {\n  var nuevoArray = []; //almacena array vacío\n\n  for (i = 0; i < array_numeros.length; i++) {\n    if (typeof array_numeros[i] == \"number\") {\n      // console.log(array_numeros[i])\n      if (array_numeros[i] > 8) {\n        //console.log(array_numeros[i])\n        nuevoArray.push(array_numeros[i]);\n      }\n    }\n  }\n\n  return nuevoArray;\n};\n\nconsole.log(es_Mayor_a_Ocho(numeros));\n\n//# sourceURL=webpack:///./src/scripts/one.js?");
 
 /***/ }),
 
@@ -105,7 +105,7 @@ eval("// Ejercicio 1\nconsole.log(\"hola1\");\n\n//# sourceURL=webpack:///./src/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _one__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./one */ \"./src/scripts/one.js\");\n/* harmony import */ var _one__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_one__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _two__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./two */ \"./src/scripts/two.js\");\n/* harmony import */ var _two__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_two__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconsole.log(\"hola3\");\n\n//# sourceURL=webpack:///./src/scripts/three.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _one__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./one */ \"./src/scripts/one.js\");\n/* harmony import */ var _one__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_one__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _two__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./two */ \"./src/scripts/two.js\");\n/* harmony import */ var _two__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_two__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack:///./src/scripts/three.js?");
 
 /***/ }),
 
@@ -116,7 +116,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _one
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log(\"hola2\");\n\n//# sourceURL=webpack:///./src/scripts/two.js?");
+eval("\n\n//# sourceURL=webpack:///./src/scripts/two.js?");
 
 /***/ })
 
