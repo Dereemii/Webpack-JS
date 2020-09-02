@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/scripts/three.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/scripts/one.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -90,10 +90,11 @@
 /*!****************************!*\
   !*** ./src/scripts/one.js ***!
   \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("var numeros = [1, 4, 23, 13, -4, 'one', 6, 0, 1.1, 3.1415, 70, 44];\n\nvar es_Mayor_a_Ocho = function es_Mayor_a_Ocho(array_numeros) {\n  var nuevoArray = []; //almacena array vacío\n\n  for (i = 0; i < array_numeros.length; i++) {\n    if (typeof array_numeros[i] == \"number\") {\n      // console.log(array_numeros[i])\n      if (array_numeros[i] > 8) {\n        //console.log(array_numeros[i])\n        nuevoArray.push(array_numeros[i]);\n      }\n    }\n  }\n\n  return nuevoArray;\n};\n\nconsole.log(es_Mayor_a_Ocho(numeros));\n\n//# sourceURL=webpack:///./src/scripts/one.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _two__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./two */ \"./src/scripts/two.js\");\n/* harmony import */ var _two__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_two__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _three__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./three */ \"./src/scripts/three.js\");\n/* harmony import */ var _three__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_three__WEBPACK_IMPORTED_MODULE_1__);\n\n\nvar numeros = [1, 4, 23, -4, 'one', 6, 0, 1.1, 3.1415];\n\nvar es_Mayor_a_Ocho = function es_Mayor_a_Ocho(array_numeros) {\n  var nuevoArray = [];\n\n  for (var i = 0; i < array_numeros.length; i++) {\n    if (typeof array_numeros[i] == \"number\") {\n      var numeros_por_4 = array_numeros[i] * 4;\n\n      if (numeros_por_4 > 8) {\n        nuevoArray.push(numeros_por_4);\n      }\n    }\n  }\n\n  return nuevoArray;\n};\n\nconsole.log(es_Mayor_a_Ocho(numeros));\n\n//# sourceURL=webpack:///./src/scripts/one.js?");
 
 /***/ }),
 
@@ -101,11 +102,10 @@ eval("var numeros = [1, 4, 23, 13, -4, 'one', 6, 0, 1.1, 3.1415, 70, 44];\n\nvar
 /*!******************************!*\
   !*** ./src/scripts/three.js ***!
   \******************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _one__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./one */ \"./src/scripts/one.js\");\n/* harmony import */ var _one__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_one__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _two__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./two */ \"./src/scripts/two.js\");\n/* harmony import */ var _two__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_two__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack:///./src/scripts/three.js?");
+eval("var invocador_de_funciones = function invocador_de_funciones() {\n  return \"hola\";\n};\n\nconsole.log(invocador_de_funciones());\n\n//# sourceURL=webpack:///./src/scripts/three.js?");
 
 /***/ }),
 

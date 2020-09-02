@@ -1,19 +1,21 @@
-let numeros = [1, 4, 23,13,  -4, 'one', 6, 0, 1.1, 3.1415, 70, 44];
+import "./two";
+import "./three"; 
 
+let numeros = [1, 4, 23, -4, 'one', 6, 0, 1.1, 3.1415, ];
 
 const  es_Mayor_a_Ocho = (array_numeros) => {
-    let nuevoArray = []; //almacena array vacío
+    let nuevoArray = []; 
 
-    for(i = 0; i < array_numeros.length; i++){
+    for(var i = 0; i < array_numeros.length; i++){
         if(typeof array_numeros [i] == "number") {
-           // console.log(array_numeros[i])
-            if(array_numeros[i] > 8){
-                //console.log(array_numeros[i])
-                nuevoArray.push(array_numeros[i])
-            }
+           var numeros_por_4 = array_numeros[i]*4       
+           if(numeros_por_4 > 8){
+            nuevoArray.push(numeros_por_4)
+           }
         }
     } 
     return nuevoArray
 };
-console.log(es_Mayor_a_Ocho(numeros))
 
+
+console.log(es_Mayor_a_Ocho(numeros))
