@@ -1,4 +1,4 @@
-let numeros = [1, 4, 23, -4, 'one', 6, 0, 1.1, 3.1415, 70];
+let numeros = [1, 4, 23,13,  -4, 'one', 6, 0, 1.1, 3.1415, 70, 44];
 
 
 const  es_Mayor_a_Ocho = (array_numeros) => {

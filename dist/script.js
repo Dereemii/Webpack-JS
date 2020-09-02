@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("var numeros = [1, 4, 23, -4, 'one', 6, 0, 1.1, 3.1415, 70];\n\nvar es_Mayor_a_Ocho = function es_Mayor_a_Ocho(array_numeros) {\n  var nuevoArray = []; //almacena array vacío\n\n  for (i = 0; i < array_numeros.length; i++) {\n    if (typeof array_numeros[i] == \"number\") {\n      // console.log(array_numeros[i])\n      if (array_numeros[i] > 8) {\n        //console.log(array_numeros[i])\n        nuevoArray.push(array_numeros[i]);\n      }\n    }\n  }\n\n  return nuevoArray;\n};\n\nconsole.log(es_Mayor_a_Ocho(numeros));\n\n//# sourceURL=webpack:///./src/scripts/one.js?");
+eval("var numeros = [1, 4, 23, 13, -4, 'one', 6, 0, 1.1, 3.1415, 70, 44];\n\nvar es_Mayor_a_Ocho = function es_Mayor_a_Ocho(array_numeros) {\n  var nuevoArray = []; //almacena array vacío\n\n  for (i = 0; i < array_numeros.length; i++) {\n    if (typeof array_numeros[i] == \"number\") {\n      // console.log(array_numeros[i])\n      if (array_numeros[i] > 8) {\n        //console.log(array_numeros[i])\n        nuevoArray.push(array_numeros[i]);\n      }\n    }\n  }\n\n  return nuevoArray;\n};\n\nconsole.log(es_Mayor_a_Ocho(numeros));\n\n//# sourceURL=webpack:///./src/scripts/one.js?");
 
 /***/ }),
 
@@ -116,7 +116,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _one
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n\n//# sourceURL=webpack:///./src/scripts/two.js?");
+eval("var mascota = {\n  nombre: \"Rosalina\",\n  edad: 5,\n  raza: \"Yorkshire\",\n  pelo: \"negro\"\n};\n\nvar convierte_objeto_a_json = function convierte_objeto_a_json(objeto) {\n  return JSON.stringify(objeto);\n};\n\nconsole.log(mascota); //retorna objeto\n\nconsole.log(convierte_objeto_a_json(mascota)); //retorna objeto convertido\n\n//# sourceURL=webpack:///./src/scripts/two.js?");
 
 /***/ })
 
